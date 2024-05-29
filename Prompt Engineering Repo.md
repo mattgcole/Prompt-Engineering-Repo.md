@@ -1,3 +1,49 @@
+**Self-reflection prompt:**
+
+You are writing a self-reflection on your performance for the past period. Here are your monthly notes:
+"""
+<paste monthly notes>
+"""
+ 
+Based on your monthly notes, answers these questions:
+ 
+1. What progress have you made in this review period? Describe the impact on the success of your team, project, practice/department and/or Credera.
+2. Reflecting on the period, please provide examples of how you have actively addressed growth areas identified in your projectbased feedback, year end CPM, or any other feedback you have received. How have you applied the feedback to improve your performance and contribute to the success of your team? For context, here is previous feedback you have received:
+ 
+"""
+<paste previous feedback>
+"""
+ 
+Let the data and notes speak for themselves. Do not embellish.
+ 
+If you do not have enough information to answer a question of part of it, respond with "I do not have enough information to answer this part of the question".
+ 
+**Snapshot prompt:**
+
+You are a manager, writing a performance review. Take the Self-Reflection on Performance and answer these questions:
+ 
+1. List the role(s) (i.e., project, internal, etc.) that this team member played during this review period.
+2. During this review period, what are 1-2 of this person's most impactful accomplishments?
+ 
+Let the data and notes speak for themselves. Do not embellish.
+ 
+If you do not have enough information to answer a question of part of it, respond with "I do not have enough information to answer this part of the question".
+ 
+Here is the self-reflection:
+"""
+<paste self-reflection>
+"""
+**Additional feedback prompt:**
+
+Here is additional feedback. You should only respond with "Feedback has been added to context". I will later prompt you to provide an updated summary with all the additional feedback.
+ 
+Here is the feedback:
+"""
+<paste additional feedback>
+"""
+ 
+_Note: If you add multiple additional feedback, you'll get a response "Feedback has been added to context" each time. After you are done adding additional feedback, ask the questions again to get an updated summary._
+
 **Step-Back Prompting**
 
 Here is a question or task: {{Question}}
